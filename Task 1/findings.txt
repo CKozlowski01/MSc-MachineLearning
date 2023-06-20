@@ -1,0 +1,139 @@
+transformer_layers = 4: Acc: 0.52  Loss: 0.69
+transformer_layers = 8: Acc: 0.54 Loss: 
+transformer_layers = 16: Acc: 0.52 Loss: 0.69
+
+patch_size = 6: Acc: 0.5282 Loss: 0.6939
+patch_size = 12: Acc: 0.52126 Loss: 0.69331
+patch_size = 24: Acc: 0.5302 Loss: 0.6948
+
+num_heads = 2: Acc: 0.5351 Loss: 0.6931
+num_heads = 4: Acc: 0.5282 Loss: 0.6939
+num_heads = 8: Acc: 0.5312 Loss: 0.6945
+
+epochs = 10: Acc: 0.5317 Loss: 0.6896
+epochs = 20: Acc: 0.5282 Loss: 0.6939
+epochs = 40: Acc: 0.5291 Loss: 0.7084
+
+epochs = 20
+num_heads = 2
+patch_size = 24
+transformer_layers = 8
+Acc: 0.5218 Loss: 0.6937
+
+epochs = 20
+num_heads = 2
+patch_size = 12
+transformer_layers = 8
+Acc: 0.5272 Loss: 0.6923
+
+epochs = 20
+num_heads = 2
+patch_size = 6
+transformer_layers = 8
+
+
+num_heads = 2
+ACC: 0.5573
+ACC: 0.5480
+num_heads = 4
+ACC: 0.5292
+ACC: 0.5286
+num_heads = 8
+ACC: 0.5356
+ACC: 0.5281
+
+patch_size = 6
+ACC: 0.5267
+patch_size = 12
+ACC: 0.5281
+patch_size = 24
+ACC: 0.5276
+
+transformer_layers = 4
+ACC: 0.5267
+transformer_layers = 8
+ACC: 0.5257
+transformer_layers = 16
+ACC: 0.5202
+
+patch_size = 3
+num_heads = 2
+ACC: 0.5163
+
+dropout = 0.2
+ACC 0.54
+
+dropout = 0.4
+ACC: 0.52
+
+dropout = 0.2
+rate = 0.2
+ACC: 0.5237
+
+drop = 0.8
+ACC: 0.52
+
+patch = 12
+dropout = 0.2
+drop rate = 0.2
+drop = 0.2
+ACC: 0.547
+
+patch = 24
+dropout = 0.2
+drop rate = 0.2
+drop = 0.2
+ACC: 0.5722
+
+
+patch = 24
+dropout = 0.2
+drop rate = 0.2
+drop = 0.4
+ACC: 0.5376
+
+
+patch = 24
+dropout = 0.2
+drop rate = 0.2
+drop = 0.2
+ACC: 0.5722
+
+projdim = *3
+ACC: 0.5821
+
+projdim = *5
+ACC: 0.5846
+
+epsilon = 0.001
+ACC: 0.5888
+
+epsilon = 0.01
+ACC: 0.5944
+
+epsilon = 0.1
+ACC: 0.5806
+
+epochs = 40
+ACC 0.64
+
+drop = 0.1
+ACC: 0.6667
+1e-6
+
+Loss: 1.611183524131775; ACCURACY: 0.6874381899833679
+
+0.3
+Loss: 1.4546455144882202; ACCURACY: 0.691889226436615
+
+0.5
+Loss: 1.3796356916427612; ACCURACY: 0.6953511238098145
+
+0.8
+Loss: 1.2277541160583496; ACCURACY: 0.6839762330055237
+
+0.8 0.8 0.8
+Loss: 1.0061196088790894; ACCURACY: 0.6646884083747864
+
+MSE Loss
+Loss: 0.2772377133369446; ACCURACY: 0.6646884083747864
