@@ -32,8 +32,3 @@ on Windows 11 and Linux Ubuntu 22. You can run this program in two ways:
 An example output of this program is provided in example_output.log.txt
 
 Feel free to use, and modify, this program as part of your CMP9137 assignment.
-
-If you have any questions, get in touch with the delivery team at:
-hcuayahuitl@lincoln.ac.uk
-lzhang@lincoln.ac.uk
-jugao@lincoln.ac.uk
